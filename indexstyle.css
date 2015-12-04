@@ -1,111 +1,47 @@
-
-body
-{
-   background-image:url(http://www.freedigitalphotos.net/images/gallery-thumbnails.php?id=94612091532920747471745341);
+body{
+    background-image: url(http://www.freedigitalphotos.net/images/gallery-thumbnails.php?id=1975324613311748031269183);
 }
-
-h1
-{
-   color:MidnightBlue; 
-    text-align:center;
-    font-size:200%;
-    font-family:verdana;
-    font-weight:bolder;
-    padding:2px;
-    position:relative;
-    top: -23px;
-}
-
-#header
-{
- 
-  background-color:black;
+#header {
+    background-color:black;
     color:white;
     text-align:center;
     padding:5px;
 }
-
-
-#bar li 
-{ float: left;
-   
-}
-#bar
-
-{   
-    background-image:url(http://www.freedigitalphotos.net/images/gallery-thumbnails.php?id=79478651202367159447848631);
+#nav {
     line-height:30px;
     background-color:#eeeeee;
     height:300px;
     width:100px;
     float:left;
-    padding:5px;
-    position: relative;
-    right:52px;
+    padding:5px; 
 }
-li{
-    font-style:bolder;
-    color:brown;
+#body{
+    width:350px;
+    float:left;
+    padding:10px;
+    background-color:red;
+}
+#pic
+{
+    margin:34px;
+    width:350px;
+    position:relative;
+    bottom:-100px;
+    
+}
+img
+{
+    display:block;
+    margin: 0 auto;
+    max-height:70%;
+    max-width:100%;
+}
+
+#footer {
     background-color:black;
-}
-#main1
-{
-   display: block;
-    padding: 8px;
-    background-color: #dddddd;
-}
-#hobbies1
-{
-  
-    display: block;
-    padding: 8px;
-    background-color: #dddddd;
-     
-}
-#projects
-{
-    display: block;
-    padding: 8px;
-    background-color: #dddddd;
-    
-}
-#resume1
-{   display: block;
-    padding: 8px;
-    background-color: #dddddd;
-}
-a:link
-{
-    text-decoration:none;
-    color:blue;
-}
-a:visted
-{
-    color:red;
-}
-a:hover
-{
-    color:gold;
-}
-
-#body
-{  
- width:350px;
- float:left;
- 
-
-
-    
-}
-p{   border: 2px outset blue;
-     color:Blue; 
-     background-color:black;
-}
-#footer
-{
-   background-color:black;
     color:white;
     clear:both;
     text-align:center;
-    padding:5px;
+    padding:5px; 
+   
 }
